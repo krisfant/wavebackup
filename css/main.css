@@ -261,7 +261,8 @@ body {
     width: 50%;
     height: 50%;
     margin-top: 250px;
-    margin-left: 360px;
+    margin-left: 480px;
+    border: #1b3cff 2px;
 }
 .page1-box {
     margin-left: -182px;
