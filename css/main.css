@@ -206,10 +206,10 @@ body {
     animation-delay:.8s;
     width: 500px;
     line-height: 60px;
-    height: 60px;
+    height: 80px;
     font-weight: normal;
     letter-spacing: 8px;
-    font-size: 40px;
+    font-size: 60px;
     margin-left: -250px;
 
 }
@@ -234,8 +234,9 @@ body {
     color: #fff;
     text-align: center;
     position: absolute;
-    bottom: 180px;
+    /*bottom: 80px;*/
     width: 100%;
+    top:25%;
     -webkit-animation:scaleIn .6s ease 2s both;
     -moz-animation:scaleIn .6s ease 2s both;
     -ms-animation:scaleIn .6s ease 2s both;
@@ -250,6 +251,17 @@ body {
     -moz-animation:scaleAll .7s ease-in-out 1.6s both;
     -ms-animation:scaleAll .7s ease-in-out 1.6s both;
     animation:scaleAll .7s ease-in-out 1.6s both;
+}
+.pic-box{
+    width: 100%;
+    height: 100%;
+    margin:0 auto;
+}
+.pic-page1{
+    width: 50%;
+    height: 50%;
+    margin-top: 250px;
+    margin-left: 360px;
 }
 .page1-box {
     margin-left: -182px;
